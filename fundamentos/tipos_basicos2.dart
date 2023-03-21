@@ -35,4 +35,8 @@ main() {
   print(cursos is Set);
   cursos.add('Engenharia Elétrica');
   print(cursos.length);
+  print(cursos.contains('Engenharia Ambiental'));
+  print(cursos.first);
+  print(cursos.last);
+  print(cursos);
 }
